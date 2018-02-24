@@ -11,7 +11,9 @@ class shape
 
 
     public: 
-        virtual void draw();
+        virtual void draw(){
+            cout<<"Parent class"<<endl;
+        };
 
 };
 
